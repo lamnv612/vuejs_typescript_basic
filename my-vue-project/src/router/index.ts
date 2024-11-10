@@ -4,7 +4,7 @@ import { VIEW_CONFIG } from "@/constants";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    component: () => import("@/components/views/HomeScreen.vue"),
+    component: () => import("@/views/HomeScreen.vue"),
     props: true,
     children: [
       {
@@ -13,7 +13,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: "home",
-        component: () => import("@/components/views/HomeScreen.vue"),
+        component: () => import("@/views/HomeScreen.vue"),
         name: "home",
         props: true,
       },

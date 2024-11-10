@@ -27,6 +27,10 @@ const routes: Array<RouteRecordRaw> = [
     ...VIEW_CONFIG.RANDOM_IMG,
     component: () => import("@/views/GenRandomImageScreen.vue"),
   },
+  {
+    ...VIEW_CONFIG.SHOPPING,
+    component: () => import("@/views/ShoppingScreen.vue"),
+  },
 ];
 
 const router = createRouter({

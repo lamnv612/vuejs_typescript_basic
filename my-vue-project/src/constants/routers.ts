@@ -9,4 +9,9 @@ export const VIEW_CONFIG = {
     name: "toggle-button",
     path: "/toggle-button-page",
   },
+  RANDOM_IMG: {
+    label: "ランダムのイメージ",
+    name: "random-image",
+    path: "/random-image-page",
+  },
 } as const;

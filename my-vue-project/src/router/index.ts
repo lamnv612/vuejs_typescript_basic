@@ -23,6 +23,10 @@ const routes: Array<RouteRecordRaw> = [
     ...VIEW_CONFIG.TOGGLE_BUTTON,
     component: () => import("@/views/ToggleScreen.vue"),
   },
+  {
+    ...VIEW_CONFIG.RANDOM_IMG,
+    component: () => import("@/views/GenRandomImageScreen.vue"),
+  },
 ];
 
 const router = createRouter({

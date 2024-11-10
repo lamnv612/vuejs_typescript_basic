@@ -19,6 +19,10 @@ const routes: Array<RouteRecordRaw> = [
       },
     ]
   },
+  {
+    ...VIEW_CONFIG.TOGGLE_BUTTON,
+    component: () => import("@/views/ToggleScreen.vue"),
+  },
 ];
 
 const router = createRouter({

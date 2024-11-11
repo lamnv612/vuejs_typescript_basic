@@ -19,4 +19,9 @@ export const VIEW_CONFIG = {
     name: "shopping-page",
     path: "/shopping",
   },
+  SEND_EMAIL: {
+    label: "メール送信",
+    name: "send-email-page",
+    path: "/send-email",
+  },
 } as const;

@@ -8,7 +8,7 @@
     <div class="form-group">
       <input
         type="email"
-        placeholder="Email"
+        placeholder="メール"
         v-model="form.email"
         required
         autofocus
@@ -18,7 +18,7 @@
     <div class="form-group">
       <input
         type="text"
-        placeholder="Subject"
+        placeholder="タイトル"
         v-model="form.subject"
         required
         class="form-input"
@@ -27,7 +27,7 @@
     <div class="form-group">
       <textarea
         v-model="form.message"
-        placeholder="Type your message"
+        placeholder="メッセージを入力してください"
         required
         class="form-input"
       ></textarea>
@@ -83,7 +83,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 500px;
+  width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -93,6 +93,7 @@ form {
 
 /* フォーム入力フィールドのスタイル */
 .form-input {
+  width: 100%;
   padding: 12px;
   margin: 8px 0;
   font-size: 16px;

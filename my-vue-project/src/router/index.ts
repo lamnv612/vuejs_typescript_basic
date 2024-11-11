@@ -31,6 +31,10 @@ const routes: Array<RouteRecordRaw> = [
     ...VIEW_CONFIG.SHOPPING,
     component: () => import("@/views/ShoppingScreen.vue"),
   },
+  {
+    ...VIEW_CONFIG.SEND_EMAIL,
+    component: () => import("@/views/SendEmailScreen.vue"),
+  },
 ];
 
 const router = createRouter({
